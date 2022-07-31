@@ -1,0 +1,45 @@
+.qntext {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  display: flex;
+  justify-content: center;
+  color: #5c5c5c;
+}
+
+.creation-page-bottom-container {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nextBtn:hover {
+  display: flex;
+  justify-content: flex-end;
+  background: linear-gradient(253.58deg, #ffc000 1.55%, #ff8a00 95.8%);
+  background-blend-mode: multiply;
+}
+
+.backBtn {
+  display: flex;
+  justify-content: flex-start;
+  background: linear-gradient(253.58deg, #ffc000 1.55%, #ff8a00 95.8%);
+  background-blend-mode: multiply;
+}
+
+.quiz-title {
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 35px;
+  color: #ff8a00;
+  text-align: center;
+}
+
+.question-title {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 35px;
+  color: #ff8a00;
+  text-align: center;
+}

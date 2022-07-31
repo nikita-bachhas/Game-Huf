@@ -1,0 +1,28 @@
+.quiz-card-container {
+  min-width: 230px;
+  min-height: 150px;
+  background: linear-gradient(253.58deg, #ffc000 1.55%, #ff8a00 95.8%);
+  background-blend-mode: multiply;
+  border-radius: 10px;
+  border: none;
+  transition: box-shadow 0.3s, border-color 0.3s;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.quiz-card-container:hover {
+  cursor: pointer;
+  box-shadow: 0px 12px 35px rgba(160, 121, 0, 0.5);
+}
+
+.quiz-card-available {
+  background: linear-gradient(253.58deg, #ffc000 1.55%, #ff8a00 95.8%);
+}
+
+.quiz-card-unavailable {
+  background: linear-gradient(253.58deg, #f74747 1.55%, #d0021b 95.8%);
+}
+
+.quiz-card-title {
+  text-align: center;
+}

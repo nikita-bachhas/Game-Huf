@@ -1,0 +1,1 @@
+web: gunicorn project_huf.wsgi --log-file - --log-level debug

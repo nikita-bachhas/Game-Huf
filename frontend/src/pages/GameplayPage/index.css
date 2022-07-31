@@ -1,0 +1,21 @@
+.header-container {
+  display: flex;
+  align-items: center;
+}
+.timer-con {
+  margin-left: auto;
+  justify-content: right;
+  align-items: center;
+}
+
+h2{
+  font-size: 1.875em
+}
+.question-con {
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 0 5px #c7c6c6;
+  border-radius: 5px;
+  border-bottom: 5px solid orange;
+  background-color: #fff4dc;
+}

@@ -1,0 +1,68 @@
+.leaderboard-score-container {
+  display: flex;
+  justify-content: space-between;
+  width: 200px;
+  align-items: center;
+}
+
+.leaderboard-header-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.score-title {
+  font-weight: 900;
+  font-size: 24px;
+  /* line-height: 28px; */
+  text-align: center;
+  color: #5c5c5c;
+}
+
+#score-circle {
+  height: 50px;
+  width: 50px;
+  font-size: 2em;
+  color: #fff;
+  font-weight: bold;
+  background: linear-gradient(253.58deg, #ffc000 1.55%, #ff8a00 95.8%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.lb-back-btn {
+  align-self: flex-start;
+  background: linear-gradient(253.58deg, #ffc000 1.55%, #ff8a00 95.8%);
+  border: #ffc000;
+  width: 118px;
+  height: 43px;
+  font-size: 14px;
+  line-height: 16px;
+  font-weight: bold;
+  color: #ffffff;
+  border-radius: 10px;
+}
+.lb-back-btn:hover {
+  background: linear-gradient(253.58deg, #ffc000 1.55%, #ff8a00 95.8%);
+  border: #ffc000;
+  box-shadow: 0px 12px 35px rgba(160, 121, 0, 0.2);
+}
+
+.lb-fb-invite-btn {
+  width: 276px;
+  height: 43px;
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  color: #ffffff;
+}
+.lb-fb-invite-btn:hover {
+  box-shadow: 0px 12px 35px rgba(160, 121, 0, 0.2);
+}
+.lb-bottom-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}

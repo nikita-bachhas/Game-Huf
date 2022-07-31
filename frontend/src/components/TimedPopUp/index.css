@@ -1,0 +1,38 @@
+.timedpopup{
+    position: fixed;
+
+    left: 25%;
+    top: 30%;
+
+    width: 50%;
+
+    border: 1px solid #011627;
+
+    background-color: #FDFFFC;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+    color: #011627;
+}
+
+.timedpopup-inner{
+    position:relative;
+    padding: 32px;
+    width: 100%;
+    max-width: 640px;
+}
+
+.timedpopup-inner.close-btn{
+    text-align: right;
+}
+
+.opaque-con {
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 5px #c7c6c6;
+    border-radius: 5px;
+    background-color: #fff4dc;
+  }

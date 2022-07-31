@@ -1,0 +1,37 @@
+
+{% load socialaccount%}
+{% providers_media_js %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<a href="{% provider_login_url "facebook" method="js_sdk" %}" class="btn btn-block btn-social btn-facebook" style="background-color:#3b5998;text-align:center">
+  <span class="fa fa-facebook"></span>
+               Sign in with Facebook
+ </a>
+    <br>
+    <br>
+    <hr/>
+    <a> avatar_url, {{user.socialaccount_set.all.0.get_avatar_url}}</a>
+    <br>
+    <br>
+    <a> profile_url, {{user.socialaccount_set.all.0.get_profile_url}}</a>
+    <br>
+    <br>
+    <a> user_id, {{user.socialaccount_set.all.0.uid}}</a>
+    <br>
+    <br>
+    <a> username, {{user.username}}</a>
+    <br>
+    <br>
+    <a> first_name, {{user.first_name}}</a>
+    <br>
+    <br>
+    <a> last_name, {{user.last_name}}</a>
+
+</body>
+</html>

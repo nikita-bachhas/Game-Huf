@@ -1,0 +1,10 @@
+.home-logo {
+  width: 100%;
+}
+.home-logo:hover {
+  cursor: pointer;
+}
+
+.sider {
+  box-shadow: 0px 5px 28px -9px rgba(0, 0, 0, 0.2);
+}

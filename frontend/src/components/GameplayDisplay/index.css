@@ -1,0 +1,12 @@
+.question-container {
+  width: 1280px;
+  align-items: center;
+  max-height: max-content;
+}
+
+.button-container {
+  align-items: center;
+  justify-content: center;
+  color: orange;
+}
+
