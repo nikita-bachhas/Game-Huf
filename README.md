@@ -2,6 +2,11 @@
 The game Huf allows users to either create their own quizzes or play other quizzes created by others
 
 ## Functionality
+1. User can register for the game and are able to log in whenever they wish to, either with their email or through the use of their Facebook login ID 
+2. On the homepage, user can see their personal dashboard, where they can either select to view a game or create a game
+3. User can create multiple choice questions for the quiz and even create different levels of quizzes for the same topic
+4. User can play games created by other users and view their rank against other players with the help of a leaderboard 
+5. User can use the Facebook feature to share their scores or challenge another friend for that quiz
 
 ## Documentation 
 All documents can be found under the [Documentation](https://github.com/nikita-bachhas/Game-Huf/tree/main/Documentation) folder
